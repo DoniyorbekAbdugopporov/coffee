@@ -1,13 +1,13 @@
 .gallery {
-  background-color: #111; // Qora fon rangi
-  padding: 50px 20px;
+  background-color: #1c1814; // Qora fon rangi
+  padding: 50px 0;
   color: #fff;
 
   .gallery__top {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 20px;
-    margin-bottom: 40px;
+    padding-bottom: 50px;
 
     .gallery__item {
       display: flex;
@@ -18,8 +18,9 @@
 
       span {
         color: #c99e71;
-        font-size: 18px;
+        font-size: 22px;
         font-weight: bold;
+        padding: 0 10px;
       }
 
       h3 {
@@ -37,6 +38,7 @@
   }
 
   .gallery__bottom {
+    padding-top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,7 +47,7 @@
     .gallery__bottom-images {
       display: flex;
       flex-wrap: wrap;
-      gap: 10px;
+      gap: 20px;
       width: 60%;
 
       img {

@@ -15,18 +15,21 @@ const Gallery = () => {
       <div className="container">
         <div className="gallery__top">
           <div className="gallery__item">
-            <span>01</span>
-            <h3>Best Coffee Flavour</h3>
+            <h3>
+              <span>01</span> Best Coffee Flavour
+            </h3>
             <img src={coffeeImg1} alt="Coffee Flavour" />
           </div>
           <div className="gallery__item">
-            <span>02</span>
-            <h3>Place to get lost</h3>
+            <h3>
+              <span>02</span> Place to get lost
+            </h3>
             <img src={coffeeImg2} alt="Place to get lost" />
           </div>
           <div className="gallery__item">
-            <span>03</span>
-            <h3>Proper roasting</h3>
+            <h3>
+              <span>03</span> Proper roasting
+            </h3>
             <img src={coffeeImg3} alt="Proper roasting" />
           </div>
         </div>
