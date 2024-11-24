@@ -1,7 +1,6 @@
 import React from "react";
-import "./Gallery.scss"; // Stil fayli
+import "./Gallery.scss";
 
-// Rasmlar importi
 import coffeeImg1 from "../../../assets/images/image (12).png";
 import coffeeImg2 from "../../../assets/images/Rectangle 4 (1).png";
 import coffeeImg3 from "../../../assets/images/Rectangle 4 (2).png";
@@ -44,9 +43,14 @@ const Gallery = () => {
             <span className="gallery__history">Our history</span>
             <h2>Create a new story with us</h2>
             <p>
-              Mauris rhoncus in imperdiet placerat. Vestibulum euismod nisl
-              suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh,
-              tincidunt ut eros vitae, aliquam varius.
+              Mauris Rhoncus in Imperdiet Placerat. Vestibu emismd nisl
+              suscirpit ligula volutpat, a feyguat urn maxmaus. cars massa
+              nibhtincidunt. donec et nibh maximus, est eu, mattis nuce.
+              preasent ut quam quis quam venen atis fringilla. morbi vastibulum
+              id tells mmodo mattis. aliauam erat volutpal.Mauris rhoncus in
+              imperdiet placerat. Vestibulum euismod nisl suscipit ligula
+              volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt ut
+              eros vitae, aliquam varius.
             </p>
           </div>
         </div>

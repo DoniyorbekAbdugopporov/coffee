@@ -4,6 +4,7 @@ import coffee_logo from "../../assets/logo/coffee_logo.svg"
 import { FaHome } from "react-icons/fa";
 import { CiSearch } from "react-icons/ci";
 import { RiShoppingBag3Line } from "react-icons/ri";
+import { TiThMenu } from "react-icons/ti";
 
 
 const Header = () => {
@@ -12,6 +13,7 @@ const Header = () => {
       <div className="container__lg">
         <nav className="navbar">
           <ul className="navbar__collection">
+            <TiThMenu className="menu__item" />
             <li className="navbar__item active">
               <a href="#" className="navbar__link">
                 <span className="active">Home</span>
